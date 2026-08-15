@@ -16,11 +16,11 @@ Attributes used (24 distinct attributes, above the 15 minimum):
 lang, charset, name, content, href, rel, id, role, aria-label, aria-labelledby, tabindex, datetime, scope, type, placeholder, required, autocomplete, value, selected, disabled, rows, method, action, for
 Question 2: HTML Elements
 Five most challenging elements to implement:
-<table> — getting <thead>, <tbody>, <th scope="row">/<th scope="col">, and <caption> 
-<details>/<summary> - deciding what belongs in the visible summary vs. the collapsible content for each service card.
+<table> getting <thead>, <tbody>, <th scope="row">/<th scope="col">, and <caption> 
+<details>/<summary> deciding what belongs in the visible summary compared to the collapsible content for each service card.
 <form> with mixed input types (text, email, tel, checkbox) plus <select>/<option> - coordinating required, placeholder, and autocomplete consistently.
-<dl>/<dt>/<dd> were an unfamiliar structure for the "Quick details" contact block, easy to mix up which tag wraps the label vs. the value.
-<figure>/<figcaption>  using them semantically for the gallery even without actual images.
+<dl>/<dt>/<dd> were an unfamiliar structures for the "Quick details" contact block, therefore, easy to mix up which tag wraps the label against the value.
+<figure>/<figcaption>  using them semantically for the gallery even without actual images keeping in mind that in a git repository the work may continue later.
 Semantic structure: <header> holds the site title/nav; <main> wraps all page content; each major topic (intro, services, pricing, gallery, reviews, contact) is its own <section> with a heading tied in via aria-labelledby; each individual service and the review is an <article>, since it's independently meaningful content; <footer>, closes the page with copyright and footer nav.
 Most useful for layout: <section> , because it let me break the single page into clearly bounded, independently labeled topic areas (services, pricing, gallery, reviews, contact) that both mirror the nav links and make the outline easy to scan.
 Question 3: HTML Attributes
