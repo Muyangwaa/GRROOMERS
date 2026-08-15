@@ -2,13 +2,6 @@ Student Name: Muyangwa Muyangwa
 Student ID: 2601810163
 GitHub Repository: https://github.com/Muyangwaa/GRROOMERS/tree/main
 Question 1: Website Creation 
-Create a personal website using only HTML (no external CSS or JavaScript required). Your 
-website should demonstrate understanding of HTML elements and attributes by including: 
-• At least 25 different HTML elements 
-• At least 15 different HTML attributes 
-• Semantic HTML structure 
-• Properly organized content with clear sections 
-What type of website will you create and what content will it contain?
 -The website is a business/small-business website called GRROOMERS, a mobile dog grooming service. It advertises services 
 Elements used (49 distinct tags, well above the 25 minimum):
 html, head, meta, title, link, body, a, header, div, h1, p, strong, nav, ul, li, main, section, h2, em, article, h3, aside, details, summary, figure, figcaption, table, caption, thead, tr, th, tbody, td, form, fieldset, legend, label, input, br, textarea, button, select, option, time, hr, footer, dl, dt, dd
